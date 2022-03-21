@@ -1,0 +1,26 @@
+{
+    "context":{
+        "timeout": 30
+      },
+    "dbs":{
+        "mongodb": {
+            "protocol":"mongodb+srv",
+            "credentials":{
+                "user":"userMongodb",
+                "pass":"passMongodb"
+            },
+            "host":"cluster0.bobtd.mongodb.net",
+            "port":"27017",
+            "options":{
+                "retryWrites": "true",
+                "w":"majority"
+            },
+            "db":{
+                "name":"databaseName"
+            },
+            "msg":{
+                "connected":"[OK] connected successfully, mongodb..."
+            }
+        }
+    }
+}
